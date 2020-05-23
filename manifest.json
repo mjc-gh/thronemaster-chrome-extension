@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+
+  "author": "mjc",
+  "name": "ThroneMaster Current Turns Extension",
+  "description": "ThroneMaster current turns extension for Google Chrome",
+
+  "background": {
+    "page":"background.html"
+  },
+
+  "browser_action": {
+    "default_title": "ThroneMaster",
+    "default_pngn": "images/thronemaster.ico"
+  },
+
+  "icons": {
+    "32": "images/thronemaster.png",
+    "64": "images/thronemaster-md.png",
+    "128": "images/thronemaster-big.png"
+  },
+
+  "permissions": [
+    "https://www.thronemaster.net/"
+  ]
+}
